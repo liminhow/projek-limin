@@ -6,8 +6,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f1e5; /* Warna krem */
+    color: #333;
 }
 
 .container {
@@ -17,15 +18,17 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #42210b; /* Warna coklat tua */
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    border-bottom: 4px solid #ff8100; /* Warna oren */
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
 }
 
 nav ul {
@@ -41,14 +44,15 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    transition: color 0.3s ease; /* Transisi warna */
 }
 
 nav ul li a:hover {
-    color: #ccc;
+    color: #ff8100; /* Warna oren */
 }
 
 #banner {
-    background-image: url('path/to/your/image.jpg');
+    background-image: url('kopi.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -59,20 +63,21 @@ nav ul li a:hover {
 #banner h2 {
     font-size: 48px;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
 }
 
 .btn {
     display: inline-block;
-    background-color: #333;
+    background-color: #ff8100; /* Warna oren */
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 24px;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #555;
+    background-color: #6e381b; /* Warna coklat tua */
 }
 
 section {
@@ -83,6 +88,9 @@ section h2 {
     font-size: 36px;
     margin-bottom: 30px;
     text-align: center;
+    color: #ff8100; /* Warna oren */
+    text-transform: uppercase; /* Huruf besar */
+    letter-spacing: 2px; /* Spasi antar huruf */
 }
 
 .menu-item {
@@ -93,21 +101,24 @@ section h2 {
 .menu-item h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #42210b; /* Warna coklat tua */
 }
 
 .menu-item p {
     font-size: 18px;
     color: #555;
+    line-height: 1.6; /* Jarak antar baris */
 }
 
 footer {
-    background-color: #333;
+    background-color: #42210b; /* Warna coklat tua */
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    border-top: 4px solid #ff8100; /* Warna oren */
 }
 
 footer p {
     font-size: 16px;
+    margin-top: 10px;
 }
-
